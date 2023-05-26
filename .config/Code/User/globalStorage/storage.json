@@ -805,7 +805,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1733,10 +1734,10 @@
             "backupPath": "/home/jkyon/.config/Code/Backups/236a4ad2f4b6b58b3eadc2bfe2ea951a",
             "uiState": {
                 "mode": 1,
-                "x": 8,
-                "y": 32,
-                "width": 948,
-                "height": 1040
+                "x": 10,
+                "y": 34,
+                "width": 944,
+                "height": 1036
             }
         },
         "openedWindows": []
