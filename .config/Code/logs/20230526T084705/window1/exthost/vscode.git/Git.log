@@ -183,3 +183,70 @@
 2023-05-26 08:52:13.786 [info] > git config --get commit.template [10ms]
 2023-05-26 08:52:13.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
 2023-05-26 08:52:13.821 [info] > git status -z -uall [23ms]
+2023-05-26 08:52:20.645 [info] > git add -A -- . [223ms]
+2023-05-26 08:52:20.689 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [35ms]
+2023-05-26 08:52:20.704 [info] > git config --get commit.template [4ms]
+2023-05-26 08:52:20.722 [info] > git config --get commit.template [1ms]
+2023-05-26 08:52:20.736 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 08:52:20.753 [info] > git status -z -uall [8ms]
+2023-05-26 08:52:20.836 [info] > git config --get commit.template [21ms]
+2023-05-26 08:52:20.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-05-26 08:52:20.900 [info] > git status -z -uall [30ms]
+2023-05-26 08:52:22.135 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-26 08:52:22.634 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/alacritty/alacritty.yml [10ms]
+2023-05-26 08:52:22.647 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.gitignore [13ms]
+2023-05-26 08:52:22.658 [info] > git cat-file -s 5e6146b8e040ff5a62603151ccf3422888fc7f6e [13ms]
+2023-05-26 08:52:22.660 [info] > git cat-file -s d4f5f72f2ab57f8f3b67994e77f3edb6781434c3 [6ms]
+2023-05-26 08:52:22.683 [info] > git show --textconv :.config/alacritty/alacritty.yml [13ms]
+2023-05-26 08:52:22.684 [info] > git show --textconv :.gitignore [3ms]
+2023-05-26 08:52:23.054 [info] > git push origin main:main [2260ms]
+2023-05-26 08:52:23.054 [info] remote: Resolving deltas:   0% (0/47)        remote: Resolving deltas:   2% (1/47)        remote: Resolving deltas:   4% (2/47)        remote: Resolving deltas:   6% (3/47)        remote: Resolving deltas:   8% (4/47)        remote: Resolving deltas:  10% (5/47)        remote: Resolving deltas:  12% (6/47)        remote: Resolving deltas:  14% (7/47)        remote: Resolving deltas:  17% (8/47)        remote: Resolving deltas:  19% (9/47)        remote: Resolving deltas:  21% (10/47)        remote: Resolving deltas:  23% (11/47)        remote: Resolving deltas:  25% (12/47)        remote: Resolving deltas:  27% (13/47)        remote: Resolving deltas:  29% (14/47)        remote: Resolving deltas:  31% (15/47)        remote: Resolving deltas:  34% (16/47)        remote: Resolving deltas:  36% (17/47)        remote: Resolving deltas:  38% (18/47)        remote: Resolving deltas:  40% (19/47)        remote: Resolving deltas:  42% (20/47)        remote: Resolving deltas:  44% (21/47)        remote: Resolving deltas:  46% (22/47)        remote: Resolving deltas:  48% (23/47)        remote: Resolving deltas:  51% (24/47)        remote: Resolving deltas:  53% (25/47)        remote: Resolving deltas:  55% (26/47)        remote: Resolving deltas:  57% (27/47)        remote: Resolving deltas:  59% (28/47)        remote: Resolving deltas:  61% (29/47)        remote: Resolving deltas:  63% (30/47)        remote: Resolving deltas:  65% (31/47)        remote: Resolving deltas:  68% (32/47)        remote: Resolving deltas:  70% (33/47)        remote: Resolving deltas:  72% (34/47)        remote: Resolving deltas:  74% (35/47)        remote: Resolving deltas:  76% (36/47)        remote: Resolving deltas:  78% (37/47)        remote: Resolving deltas:  80% (38/47)        remote: Resolving deltas:  82% (39/47)        remote: Resolving deltas:  85% (40/47)        remote: Resolving deltas:  87% (41/47)        remote: Resolving deltas:  89% (42/47)        remote: Resolving deltas:  91% (43/47)        remote: Resolving deltas:  93% (44/47)        remote: Resolving deltas:  95% (45/47)        remote: Resolving deltas:  97% (46/47)        remote: Resolving deltas: 100% (47/47)        remote: Resolving deltas: 100% (47/47), completed with 43 local objects.        
+To https://github.com/jKy0n/CrisnoteDotfiles.git
+   73b794a..a6f982b  main -> main
+2023-05-26 08:52:23.079 [info] > git config --get commit.template [15ms]
+2023-05-26 08:52:23.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-05-26 08:52:23.098 [info] > git status -z -uall [11ms]
+2023-05-26 08:52:23.281 [info] > git config --get commit.template [2ms]
+2023-05-26 08:52:23.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-05-26 08:52:23.332 [info] > git status -z -uall [16ms]
+2023-05-26 08:52:24.440 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/alacritty/alacritty.yml [11ms]
+2023-05-26 08:52:24.448 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.gitignore [9ms]
+2023-05-26 08:52:24.456 [info] > git cat-file -s 5e6146b8e040ff5a62603151ccf3422888fc7f6e [9ms]
+2023-05-26 08:52:24.457 [info] > git cat-file -s d4f5f72f2ab57f8f3b67994e77f3edb6781434c3 [2ms]
+2023-05-26 08:52:24.472 [info] > git show --textconv :.config/alacritty/alacritty.yml [7ms]
+2023-05-26 08:52:24.474 [info] > git show --textconv :.gitignore [3ms]
+2023-05-26 08:52:25.925 [info] > git config --get commit.template [2ms]
+2023-05-26 08:52:25.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-26 08:52:25.960 [info] > git status -z -uall [13ms]
+2023-05-26 08:52:33.045 [info] > git config --get commit.template [13ms]
+2023-05-26 08:52:33.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 08:52:33.065 [info] > git status -z -uall [12ms]
+2023-05-26 08:52:38.092 [info] > git config --get commit.template [9ms]
+2023-05-26 08:52:38.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-26 08:52:38.113 [info] > git status -z -uall [13ms]
+2023-05-26 08:52:45.602 [info] > git config --get commit.template [14ms]
+2023-05-26 08:52:45.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-26 08:52:45.630 [info] > git status -z -uall [17ms]
+2023-05-26 08:52:50.663 [info] > git config --get commit.template [15ms]
+2023-05-26 08:52:50.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-05-26 08:52:50.685 [info] > git status -z -uall [11ms]
+2023-05-26 08:52:51.318 [info] > git check-ignore -v -z --stdin [3ms]
+2023-05-26 08:52:55.703 [info] > git config --get commit.template [2ms]
+2023-05-26 08:52:55.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 08:52:55.734 [info] > git status -z -uall [10ms]
+2023-05-26 08:53:00.766 [info] > git config --get commit.template [10ms]
+2023-05-26 08:53:00.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 08:53:00.789 [info] > git status -z -uall [11ms]
+2023-05-26 08:53:05.828 [info] > git config --get commit.template [15ms]
+2023-05-26 08:53:05.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-05-26 08:53:05.850 [info] > git status -z -uall [9ms]
+2023-05-26 08:53:06.490 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-26 08:53:07.403 [info] > git check-ignore -v -z --stdin [9ms]
+2023-05-26 08:53:07.405 [info] > git check-ignore -v -z --stdin [4ms]
+2023-05-26 08:53:10.881 [info] > git config --get commit.template [14ms]
+2023-05-26 08:53:10.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 08:53:10.905 [info] > git status -z -uall [12ms]
+2023-05-26 08:53:11.560 [info] > git check-ignore -v -z --stdin [4ms]
+2023-05-26 08:53:15.931 [info] > git config --get commit.template [12ms]
+2023-05-26 08:53:15.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-26 08:53:15.959 [info] > git status -z -uall [14ms]
