@@ -1,0 +1,248 @@
+2023-05-25 10:16:16.619 [info] Getting Manifest... rockcat.avr-support
+2023-05-25 10:16:16.818 [info] Installing extension: rockcat.avr-support
+2023-05-25 10:16:16.819 [info] Installing the extension without checking dependencies and pack rockcat.avr-support
+2023-05-25 10:16:28.786 [info] Extension signature is verified: rockcat.avr-support
+2023-05-25 10:16:45.941 [info] Extracted extension to /home/jkyon/.vscode/extensions/.e314196a-fe71-4d1d-b048-43f091cdf7de: rockcat.avr-support
+2023-05-25 10:16:46.019 [info] Renamed to /home/jkyon/.vscode/extensions/rockcat.avr-support-0.0.1
+2023-05-25 10:16:46.023 [info] Extracting extension completed. rockcat.avr-support
+2023-05-25 10:16:46.089 [info] Extension installed successfully: rockcat.avr-support
+2023-05-25 10:16:46.091 [info] Getting Manifest... cschlosser.doxdocgen
+2023-05-25 10:16:46.249 [info] Installing extension: cschlosser.doxdocgen
+2023-05-25 10:16:46.249 [info] Installing the extension without checking dependencies and pack cschlosser.doxdocgen
+2023-05-25 10:16:49.742 [info] Extension signature is verified: cschlosser.doxdocgen
+2023-05-25 10:16:50.705 [info] Extracted extension to /home/jkyon/.vscode/extensions/.56e9c77e-3a6d-4d58-a598-1b79bb64ac06: cschlosser.doxdocgen
+2023-05-25 10:16:50.801 [info] Renamed to /home/jkyon/.vscode/extensions/cschlosser.doxdocgen-1.4.0
+2023-05-25 10:16:50.809 [info] Extracting extension completed. cschlosser.doxdocgen
+2023-05-25 10:16:50.916 [info] Extension installed successfully: cschlosser.doxdocgen
+2023-05-25 10:16:51.238 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-05-25 10:16:51.397 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-05-25 10:16:51.397 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-keymap
+2023-05-25 10:16:53.606 [info] Extension signature is verified: ms-toolsai.jupyter-keymap
+2023-05-25 10:16:53.630 [info] Extracted extension to /home/jkyon/.vscode/extensions/.45d0980c-02f2-475c-813c-f72bc504ec17: ms-toolsai.jupyter-keymap
+2023-05-25 10:16:53.694 [info] Renamed to /home/jkyon/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-05-25 10:16:53.697 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-05-25 10:16:53.753 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-05-25 10:16:53.754 [info] Getting Manifest... ms-vscode.cpptools-themes
+2023-05-25 10:16:53.791 [info] Installing extension: ms-vscode.cpptools-themes
+2023-05-25 10:16:53.791 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools-themes
+2023-05-25 10:16:55.977 [info] Extension signature is verified: ms-vscode.cpptools-themes
+2023-05-25 10:16:56.019 [info] Extracted extension to /home/jkyon/.vscode/extensions/.f7fd1090-c42e-4dc8-9666-70977fb8387d: ms-vscode.cpptools-themes
+2023-05-25 10:16:56.124 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2023-05-25 10:16:56.128 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2023-05-25 10:16:56.241 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2023-05-25 10:16:56.249 [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:56.288 [info] Installing extension: jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:56.289 [info] Installing the extension without checking dependencies and pack jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:59.303 [info] Extension signature is verified: jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:59.341 [info] Extracted extension to /home/jkyon/.vscode/extensions/.fc78e733-0670-4fe0-b3db-4d30a88ea36c: jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:59.502 [info] Renamed to /home/jkyon/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.17.2
+2023-05-25 10:16:59.508 [info] Extracting extension completed. jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:59.573 [info] Extension installed successfully: jeff-hykin.better-cpp-syntax
+2023-05-25 10:16:59.579 [info] Getting Manifest... platformio.platformio-ide
+2023-05-25 10:16:59.692 [info] Installing extension: platformio.platformio-ide
+2023-05-25 10:16:59.692 [info] Installing the extension without checking dependencies and pack platformio.platformio-ide
+2023-05-25 10:17:05.293 [info] Extension signature is verified: platformio.platformio-ide
+2023-05-25 10:17:07.687 [info] Extracted extension to /home/jkyon/.vscode/extensions/.d8a99cf9-08f6-427c-8a72-960cb4e21db7: platformio.platformio-ide
+2023-05-25 10:17:07.802 [info] Renamed to /home/jkyon/.vscode/extensions/platformio.platformio-ide-3.1.1-linux-x64
+2023-05-25 10:17:07.804 [info] Extracting extension completed. platformio.platformio-ide
+2023-05-25 10:17:07.862 [info] Extension installed successfully: platformio.platformio-ide
+2023-05-25 10:17:07.863 [info] Getting Manifest... ms-python.vscode-pylance
+2023-05-25 10:17:07.909 [info] Installing extension: ms-python.vscode-pylance
+2023-05-25 10:17:07.910 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2023-05-25 10:17:14.239 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-05-25 10:17:21.153 [info] Extracted extension to /home/jkyon/.vscode/extensions/.8d139ecc-c1b1-4d28-abdf-ca76fa26246a: ms-python.vscode-pylance
+2023-05-25 10:17:21.268 [info] Renamed to /home/jkyon/.vscode/extensions/ms-python.vscode-pylance-2023.5.40
+2023-05-25 10:17:21.289 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-05-25 10:17:21.383 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-05-25 10:17:21.384 [info] Getting Manifest... ms-python.python
+2023-05-25 10:17:21.410 [info] Installing extension: ms-python.python
+2023-05-25 10:17:21.411 [info] Installing the extension without checking dependencies and pack ms-python.python
+2023-05-25 10:17:28.063 [info] Extension signature is verified: ms-python.python
+2023-05-25 10:17:31.220 [info] Extracted extension to /home/jkyon/.vscode/extensions/.98799120-b2b3-4813-be34-57fb8c48afaf: ms-python.python
+2023-05-25 10:17:31.288 [info] Renamed to /home/jkyon/.vscode/extensions/ms-python.python-2023.8.0
+2023-05-25 10:17:31.298 [info] Extracting extension completed. ms-python.python
+2023-05-25 10:17:31.357 [info] Extension installed successfully: ms-python.python
+2023-05-25 10:17:31.358 [info] Getting Manifest... wangweixuan.yithemes
+2023-05-25 10:17:31.402 [info] Installing extension: wangweixuan.yithemes
+2023-05-25 10:17:31.402 [info] Installing the extension without checking dependencies and pack wangweixuan.yithemes
+2023-05-25 10:17:33.189 [info] Extension signature is verified: wangweixuan.yithemes
+2023-05-25 10:17:33.211 [info] Extracted extension to /home/jkyon/.vscode/extensions/.771c095f-4d4b-456a-98f9-ea380a62135a: wangweixuan.yithemes
+2023-05-25 10:17:33.332 [info] Renamed to /home/jkyon/.vscode/extensions/wangweixuan.yithemes-0.19.0
+2023-05-25 10:17:33.335 [info] Extracting extension completed. wangweixuan.yithemes
+2023-05-25 10:17:33.627 [info] Extension installed successfully: wangweixuan.yithemes
+2023-05-25 10:17:33.628 [info] Getting Manifest... ms-toolsai.jupyter
+2023-05-25 10:17:33.653 [info] Installing extension: ms-toolsai.jupyter
+2023-05-25 10:17:33.654 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2023-05-25 10:17:38.951 [info] Extension signature is verified: ms-toolsai.jupyter
+2023-05-25 10:17:39.288 [info] Extracted extension to /home/jkyon/.vscode/extensions/.8cb75958-c6f9-43df-9a63-77be675be052: ms-toolsai.jupyter
+2023-05-25 10:17:39.612 [info] Renamed to /home/jkyon/.vscode/extensions/ms-toolsai.jupyter-2023.4.1011241018-linux-x64
+2023-05-25 10:17:39.622 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-05-25 10:17:39.960 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-05-25 10:17:39.964 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:40.006 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:40.006 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:42.463 [info] Extension signature is verified: ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:42.470 [info] Extracted extension to /home/jkyon/.vscode/extensions/.acdc2d71-53bd-4d19-a48a-0ae90e6b4ee5: ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:42.804 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2023-05-25 10:17:42.810 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:43.101 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+2023-05-25 10:17:43.103 [info] Getting Manifest... scydact.pic-assembly
+2023-05-25 10:17:43.267 [info] Installing extension: scydact.pic-assembly
+2023-05-25 10:17:43.267 [info] Installing the extension without checking dependencies and pack scydact.pic-assembly
+2023-05-25 10:17:45.545 [info] Extension signature is verified: scydact.pic-assembly
+2023-05-25 10:17:45.615 [info] Extracted extension to /home/jkyon/.vscode/extensions/.c91b3178-3392-4682-8c6d-cdc7feec9910: scydact.pic-assembly
+2023-05-25 10:17:46.134 [info] Renamed to /home/jkyon/.vscode/extensions/scydact.pic-assembly-0.0.1
+2023-05-25 10:17:46.139 [info] Extracting extension completed. scydact.pic-assembly
+2023-05-25 10:17:46.517 [info] Extension installed successfully: scydact.pic-assembly
+2023-05-25 10:17:46.520 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:46.543 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:46.543 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:48.289 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:48.313 [info] Extracted extension to /home/jkyon/.vscode/extensions/.079016e7-9934-41c6-95b7-f98e84d36f79: ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:48.399 [info] Renamed to /home/jkyon/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-05-25 10:17:48.401 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:48.456 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-05-25 10:17:48.457 [info] Getting Manifest... sldobri.bunker
+2023-05-25 10:17:48.608 [info] Installing extension: sldobri.bunker
+2023-05-25 10:17:48.608 [info] Installing the extension without checking dependencies and pack sldobri.bunker
+2023-05-25 10:17:52.461 [info] Extension signature is verified: sldobri.bunker
+2023-05-25 10:17:52.963 [info] Extracted extension to /home/jkyon/.vscode/extensions/.071ce89d-a3ba-4df0-a861-ba59e5a7366d: sldobri.bunker
+2023-05-25 10:17:53.032 [info] Renamed to /home/jkyon/.vscode/extensions/sldobri.bunker-1.1.6
+2023-05-25 10:17:53.034 [info] Extracting extension completed. sldobri.bunker
+2023-05-25 10:17:53.090 [info] Extension installed successfully: sldobri.bunker
+2023-05-25 10:17:53.091 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-05-25 10:17:53.108 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-05-25 10:17:53.108 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2023-05-25 10:17:57.243 [info] Extension signature is verified: ms-toolsai.jupyter-renderers
+2023-05-25 10:17:57.608 [info] Extracted extension to /home/jkyon/.vscode/extensions/.0772d940-225f-405e-95db-02f3c71fdfb2: ms-toolsai.jupyter-renderers
+2023-05-25 10:17:57.696 [info] Renamed to /home/jkyon/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-05-25 10:17:57.700 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-05-25 10:17:57.754 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-05-25 10:17:57.755 [info] Getting Manifest... rdnlsmith.linux-themes
+2023-05-25 10:17:57.920 [info] Installing extension: rdnlsmith.linux-themes
+2023-05-25 10:17:57.920 [info] Installing the extension without checking dependencies and pack rdnlsmith.linux-themes
+2023-05-25 10:18:00.363 [info] Extension signature is verified: rdnlsmith.linux-themes
+2023-05-25 10:18:00.435 [info] Extracted extension to /home/jkyon/.vscode/extensions/.8d0e84ac-f28b-476f-b9ef-a0a133ea4988: rdnlsmith.linux-themes
+2023-05-25 10:18:00.516 [info] Renamed to /home/jkyon/.vscode/extensions/rdnlsmith.linux-themes-1.3.0
+2023-05-25 10:18:00.536 [info] Extracting extension completed. rdnlsmith.linux-themes
+2023-05-25 10:18:00.597 [info] Extension installed successfully: rdnlsmith.linux-themes
+2023-05-25 10:18:00.599 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:00.641 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:00.642 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:02.299 [info] Extension signature is verified: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:02.322 [info] Extracted extension to /home/jkyon/.vscode/extensions/.3e4a803c-2048-4910-81f5-59c29459f827: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:02.630 [info] Renamed to /home/jkyon/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-05-25 10:18:02.634 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:02.898 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-05-25 10:18:02.902 [info] Getting Manifest... mtuan.night-eyes-theme
+2023-05-25 10:18:03.070 [info] Installing extension: mtuan.night-eyes-theme
+2023-05-25 10:18:03.070 [info] Installing the extension without checking dependencies and pack mtuan.night-eyes-theme
+2023-05-25 10:18:05.100 [info] Extension signature is verified: mtuan.night-eyes-theme
+2023-05-25 10:18:05.117 [info] Extracted extension to /home/jkyon/.vscode/extensions/.86211191-e0e1-4d20-aac8-f504e05a07c0: mtuan.night-eyes-theme
+2023-05-25 10:18:05.409 [info] Renamed to /home/jkyon/.vscode/extensions/mtuan.night-eyes-theme-0.0.81
+2023-05-25 10:18:05.412 [info] Extracting extension completed. mtuan.night-eyes-theme
+2023-05-25 10:18:05.469 [info] Extension installed successfully: mtuan.night-eyes-theme
+2023-05-25 10:18:05.479 [info] Getting Manifest... ms-vscode.sublime-keybindings
+2023-05-25 10:18:05.507 [info] Installing extension: ms-vscode.sublime-keybindings
+2023-05-25 10:18:05.508 [info] Installing the extension without checking dependencies and pack ms-vscode.sublime-keybindings
+2023-05-25 10:18:07.242 [info] Extension signature is verified: ms-vscode.sublime-keybindings
+2023-05-25 10:18:07.317 [info] Extracted extension to /home/jkyon/.vscode/extensions/.052aeaa9-b980-4b55-92b1-6a0e70f3e191: ms-vscode.sublime-keybindings
+2023-05-25 10:18:07.381 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10
+2023-05-25 10:18:07.383 [info] Extracting extension completed. ms-vscode.sublime-keybindings
+2023-05-25 10:18:07.428 [info] Extension installed successfully: ms-vscode.sublime-keybindings
+2023-05-25 10:18:07.430 [info] Getting Manifest... twxs.cmake
+2023-05-25 10:18:07.538 [info] Installing extension: twxs.cmake
+2023-05-25 10:18:07.538 [info] Installing the extension without checking dependencies and pack twxs.cmake
+2023-05-25 10:18:11.786 [info] Extension signature is verified: twxs.cmake
+2023-05-25 10:18:11.995 [info] Extracted extension to /home/jkyon/.vscode/extensions/.9bd1e77a-fa80-48b4-9e3a-6414ed4b4e38: twxs.cmake
+2023-05-25 10:18:12.056 [info] Renamed to /home/jkyon/.vscode/extensions/twxs.cmake-0.0.17
+2023-05-25 10:18:12.058 [info] Extracting extension completed. twxs.cmake
+2023-05-25 10:18:12.102 [info] Extension installed successfully: twxs.cmake
+2023-05-25 10:18:12.103 [info] Getting Manifest... terryfu.momentum-vscode
+2023-05-25 10:18:12.875 [info] Installing extension: terryfu.momentum-vscode
+2023-05-25 10:18:12.876 [info] Installing the extension without checking dependencies and pack terryfu.momentum-vscode
+2023-05-25 10:18:16.643 [info] Extension signature is verified: terryfu.momentum-vscode
+2023-05-25 10:18:16.669 [info] Extracted extension to /home/jkyon/.vscode/extensions/.6e3fee1a-20ad-46c3-a0b9-a8480a0f3efe: terryfu.momentum-vscode
+2023-05-25 10:18:16.726 [info] Renamed to /home/jkyon/.vscode/extensions/terryfu.momentum-vscode-1.0.1
+2023-05-25 10:18:16.728 [info] Extracting extension completed. terryfu.momentum-vscode
+2023-05-25 10:18:16.772 [info] Extension installed successfully: terryfu.momentum-vscode
+2023-05-25 10:18:16.773 [info] Getting Manifest... davidmorais.dark-magic-themes
+2023-05-25 10:18:16.919 [info] Installing extension: davidmorais.dark-magic-themes
+2023-05-25 10:18:16.919 [info] Installing the extension without checking dependencies and pack davidmorais.dark-magic-themes
+2023-05-25 10:18:18.731 [info] Extension signature is verified: davidmorais.dark-magic-themes
+2023-05-25 10:18:18.751 [info] Extracted extension to /home/jkyon/.vscode/extensions/.6d6922a7-15a8-4540-8e05-fe3e2d16c8ca: davidmorais.dark-magic-themes
+2023-05-25 10:18:18.839 [info] Renamed to /home/jkyon/.vscode/extensions/davidmorais.dark-magic-themes-0.2.2
+2023-05-25 10:18:18.841 [info] Extracting extension completed. davidmorais.dark-magic-themes
+2023-05-25 10:18:18.886 [info] Extension installed successfully: davidmorais.dark-magic-themes
+2023-05-25 10:18:18.887 [info] Getting Manifest... junwatu.8051
+2023-05-25 10:18:19.055 [info] Installing extension: junwatu.8051
+2023-05-25 10:18:19.056 [info] Installing the extension without checking dependencies and pack junwatu.8051
+2023-05-25 10:18:20.638 [info] Extension signature is verified: junwatu.8051
+2023-05-25 10:18:20.659 [info] Extracted extension to /home/jkyon/.vscode/extensions/.9ba27611-f47b-4005-a01c-4eebf5c7907a: junwatu.8051
+2023-05-25 10:18:20.716 [info] Renamed to /home/jkyon/.vscode/extensions/junwatu.8051-0.1.0
+2023-05-25 10:18:20.718 [info] Extracting extension completed. junwatu.8051
+2023-05-25 10:18:20.786 [info] Extension installed successfully: junwatu.8051
+2023-05-25 10:18:20.788 [info] Getting Manifest... dan-c-underwood.arm
+2023-05-25 10:18:20.942 [info] Installing extension: dan-c-underwood.arm
+2023-05-25 10:18:20.943 [info] Installing the extension without checking dependencies and pack dan-c-underwood.arm
+2023-05-25 10:18:22.604 [info] Extension signature is verified: dan-c-underwood.arm
+2023-05-25 10:18:22.620 [info] Extracted extension to /home/jkyon/.vscode/extensions/.20937b7b-f21f-4b81-8573-cddaedb84976: dan-c-underwood.arm
+2023-05-25 10:18:22.664 [info] Renamed to /home/jkyon/.vscode/extensions/dan-c-underwood.arm-1.7.4
+2023-05-25 10:18:22.666 [info] Extracting extension completed. dan-c-underwood.arm
+2023-05-25 10:18:22.722 [info] Extension installed successfully: dan-c-underwood.arm
+2023-05-25 10:18:22.723 [info] Getting Manifest... inci-august.august-themes
+2023-05-25 10:18:22.880 [info] Installing extension: inci-august.august-themes
+2023-05-25 10:18:22.881 [info] Installing the extension without checking dependencies and pack inci-august.august-themes
+2023-05-25 10:18:24.946 [info] Extension signature is verified: inci-august.august-themes
+2023-05-25 10:18:25.074 [info] Extracted extension to /home/jkyon/.vscode/extensions/.6a0affc3-0d36-4a78-adea-7952f0a01d91: inci-august.august-themes
+2023-05-25 10:18:25.140 [info] Renamed to /home/jkyon/.vscode/extensions/inci-august.august-themes-2.5.3
+2023-05-25 10:18:25.142 [info] Extracting extension completed. inci-august.august-themes
+2023-05-25 10:18:25.200 [info] Extension installed successfully: inci-august.august-themes
+2023-05-25 10:18:25.202 [info] Getting Manifest... dlasagno.rasi
+2023-05-25 10:18:25.353 [info] Installing extension: dlasagno.rasi
+2023-05-25 10:18:25.353 [info] Installing the extension without checking dependencies and pack dlasagno.rasi
+2023-05-25 10:18:27.100 [info] Extension signature is verified: dlasagno.rasi
+2023-05-25 10:18:27.110 [info] Extracted extension to /home/jkyon/.vscode/extensions/.c5c7c49c-3e4e-4c20-aa9d-1b0c1b131c0a: dlasagno.rasi
+2023-05-25 10:18:27.170 [info] Renamed to /home/jkyon/.vscode/extensions/dlasagno.rasi-1.0.0
+2023-05-25 10:18:27.172 [info] Extracting extension completed. dlasagno.rasi
+2023-05-25 10:18:27.219 [info] Extension installed successfully: dlasagno.rasi
+2023-05-25 10:18:27.220 [info] Getting Manifest... ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:27.252 [info] Installing extension: ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:27.252 [info] Installing the extension without checking dependencies and pack ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:31.092 [info] Extension signature is verified: ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:31.692 [info] Extracted extension to /home/jkyon/.vscode/extensions/.34e32128-3217-4a94-93fb-922818437350: ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:31.728 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.vscode-serial-monitor-0.9.0
+2023-05-25 10:18:31.731 [info] Extracting extension completed. ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:31.775 [info] Extension installed successfully: ms-vscode.vscode-serial-monitor
+2023-05-25 10:18:31.776 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-05-25 10:18:31.818 [info] Installing extension: ms-vscode.cmake-tools
+2023-05-25 10:18:31.826 [info] Installing the extension without checking dependencies and pack ms-vscode.cmake-tools
+2023-05-25 10:18:34.721 [info] Extension signature is verified: ms-vscode.cmake-tools
+2023-05-25 10:18:35.077 [info] Extracted extension to /home/jkyon/.vscode/extensions/.3ebc374d-19e7-4b60-ac79-2fe0ac6415dc: ms-vscode.cmake-tools
+2023-05-25 10:18:35.140 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.cmake-tools-1.14.31
+2023-05-25 10:18:35.153 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-05-25 10:18:35.200 [info] Extension installed successfully: ms-vscode.cmake-tools
+2023-05-25 10:18:35.201 [info] Getting Manifest... vsciot-vscode.vscode-arduino
+2023-05-25 10:18:35.254 [info] Installing extension: vsciot-vscode.vscode-arduino
+2023-05-25 10:18:35.255 [info] Installing the extension without checking dependencies and pack vsciot-vscode.vscode-arduino
+2023-05-25 10:18:43.145 [info] Extension signature is verified: vsciot-vscode.vscode-arduino
+2023-05-25 10:18:43.765 [info] Extracted extension to /home/jkyon/.vscode/extensions/.a8b0c9e2-7360-496b-b975-192967502c50: vsciot-vscode.vscode-arduino
+2023-05-25 10:18:43.816 [info] Renamed to /home/jkyon/.vscode/extensions/vsciot-vscode.vscode-arduino-0.6.0-linux-x64
+2023-05-25 10:18:43.820 [info] Extracting extension completed. vsciot-vscode.vscode-arduino
+2023-05-25 10:18:43.863 [info] Extension installed successfully: vsciot-vscode.vscode-arduino
+2023-05-25 10:18:43.863 [info] Getting Manifest... ms-vscode.makefile-tools
+2023-05-25 10:18:43.883 [info] Installing extension: ms-vscode.makefile-tools
+2023-05-25 10:18:43.883 [info] Installing the extension without checking dependencies and pack ms-vscode.makefile-tools
+2023-05-25 10:18:47.602 [info] Extension signature is verified: ms-vscode.makefile-tools
+2023-05-25 10:18:49.193 [info] Extracted extension to /home/jkyon/.vscode/extensions/.fd18ef90-2a97-4d66-9c0e-a077d22a08c8: ms-vscode.makefile-tools
+2023-05-25 10:18:49.289 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.makefile-tools-0.7.0
+2023-05-25 10:18:49.298 [info] Extracting extension completed. ms-vscode.makefile-tools
+2023-05-25 10:18:49.363 [info] Extension installed successfully: ms-vscode.makefile-tools
+2023-05-25 10:18:49.386 [info] Getting Manifest... ms-vscode.cpptools
+2023-05-25 10:18:49.457 [info] Installing extension: ms-vscode.cpptools
+2023-05-25 10:18:49.457 [info] Installing the extension without checking dependencies and pack ms-vscode.cpptools
+2023-05-25 10:19:25.718 [info] Extension signature is verified: ms-vscode.cpptools
+2023-05-25 10:19:31.782 [info] Extracted extension to /home/jkyon/.vscode/extensions/.995ba754-6bc4-4251-afd8-0d77f6aa4ab7: ms-vscode.cpptools
+2023-05-25 10:19:31.838 [info] Renamed to /home/jkyon/.vscode/extensions/ms-vscode.cpptools-1.15.4-linux-x64
+2023-05-25 10:19:31.904 [info] Extracting extension completed. ms-vscode.cpptools
+2023-05-25 10:19:32.004 [info] Extension installed successfully: ms-vscode.cpptools

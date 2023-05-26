@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "MesloLGS NF, Regular",
+    "workbench.colorTheme": "Yi Dark",
+    "window.zoomLevel": 1,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "arduino.useArduinoCli": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF, Regular",
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.cursorStyle": "underline"
+}

@@ -1,0 +1,6 @@
+2023-05-23 14:56:43.483 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-23 14:57:20.510 [info] [perf] Render performance baseline is -1ms
+2023-05-23 15:55:58.843 [error] Cancelled: Error: Cancelled
+	at r (/opt/vscode/resources/app/extensions/github-authentication/dist/extension.js:2:593374)
+	at async t.GitHubServer.login (/opt/vscode/resources/app/extensions/github-authentication/dist/extension.js:2:593958)
+	at async t.GitHubAuthenticationProvider.createSession (/opt/vscode/resources/app/extensions/github-authentication/dist/extension.js:2:590279)

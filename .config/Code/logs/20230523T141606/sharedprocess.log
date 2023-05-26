@@ -1,0 +1,4 @@
+2023-05-23 14:16:28.130 [info] Started initializing default profile extensions in extensions installation folder. file:///home/jkyon/.vscode/extensions
+2023-05-23 14:16:31.510 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-23 14:16:33.131 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/jkyon/.vscode/extensions Unable to create file 'vscode-userdata:/home/jkyon/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-05-23 14:16:33.132 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/jkyon/.vscode/extensions
