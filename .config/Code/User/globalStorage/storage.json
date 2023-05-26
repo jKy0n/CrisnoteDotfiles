@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/jkyon/ShellScript": "__default__profile__"
+            "file:///home/jkyon/ShellScript": "__default__profile__",
+            "file:///home/jkyon/.config/Code/Workspaces/1685101681695/workspace.json": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -15,11 +16,7 @@
                 "configURIPath": "file:///home/jkyon/.config/Code/Workspaces/1685101681695/workspace.json"
             }
         ],
-        "folders": [
-            {
-                "folderUri": "file:///home/jkyon/ShellScript"
-            }
-        ],
+        "folders": [],
         "emptyWindows": []
     },
     "lastKnownMenubarData": {
@@ -60,7 +57,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1143,7 +1141,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1736,7 +1735,7 @@
                 "mode": 1,
                 "x": 10,
                 "y": 34,
-                "width": 944,
+                "width": 1900,
                 "height": 1036
             }
         },

@@ -595,4 +595,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 
 --- autorun on start ---
-awful.spawn.with_shell("~/.config/awesome/autorun.sh")
+awful.spawn.with_shell("~/.dotfiles/.config/awesome/autorun.sh")

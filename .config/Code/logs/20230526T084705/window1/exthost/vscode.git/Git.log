@@ -6497,3 +6497,64 @@ To https://github.com/jKy0n/CrisnoteDotfiles.git
 2023-05-26 16:41:47.003 [info] > git config --get commit.template [12ms]
 2023-05-26 16:41:47.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
 2023-05-26 16:41:47.029 [info] > git status -z -uall [17ms]
+2023-05-26 16:41:55.859 [info] > git add -A -- . [64ms]
+2023-05-26 16:41:55.919 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [41ms]
+2023-05-26 16:41:55.945 [info] > git config --get commit.template [2ms]
+2023-05-26 16:41:55.991 [info] > git config --get commit.template [21ms]
+2023-05-26 16:41:55.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 16:41:56.010 [info] > git status -z -uall [8ms]
+2023-05-26 16:41:56.065 [info] > git config --get commit.template [8ms]
+2023-05-26 16:41:56.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-05-26 16:41:56.091 [info] > git status -z -uall [12ms]
+2023-05-26 16:41:57.402 [info] > git push origin main:main [1362ms]
+2023-05-26 16:41:57.402 [info] remote: Resolving deltas:   0% (0/22)        remote: Resolving deltas:   4% (1/22)        remote: Resolving deltas:   9% (2/22)        remote: Resolving deltas:  13% (3/22)        remote: Resolving deltas:  18% (4/22)        remote: Resolving deltas:  22% (5/22)        remote: Resolving deltas:  27% (6/22)        remote: Resolving deltas:  31% (7/22)        remote: Resolving deltas:  36% (8/22)        remote: Resolving deltas:  40% (9/22)        remote: Resolving deltas:  45% (10/22)        remote: Resolving deltas:  50% (11/22)        remote: Resolving deltas:  54% (12/22)        remote: Resolving deltas:  59% (13/22)        remote: Resolving deltas:  63% (14/22)        remote: Resolving deltas:  68% (15/22)        remote: Resolving deltas:  72% (16/22)        remote: Resolving deltas:  77% (17/22)        remote: Resolving deltas:  81% (18/22)        remote: Resolving deltas:  86% (19/22)        remote: Resolving deltas:  90% (20/22)        remote: Resolving deltas:  95% (21/22)        remote: Resolving deltas: 100% (22/22)        remote: Resolving deltas: 100% (22/22), completed with 22 local objects.        
+To https://github.com/jKy0n/CrisnoteDotfiles.git
+   0700dee..a3942ee  main -> main
+2023-05-26 16:41:57.419 [info] > git config --get commit.template [11ms]
+2023-05-26 16:41:57.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-05-26 16:41:57.437 [info] > git status -z -uall [10ms]
+2023-05-26 16:41:57.592 [info] > git config --get commit.template [2ms]
+2023-05-26 16:41:57.670 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/README.md [25ms]
+2023-05-26 16:41:57.679 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/rc.lua [43ms]
+2023-05-26 16:41:57.691 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/themes/default/theme.lua [67ms]
+2023-05-26 16:41:57.704 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.gitignore [91ms]
+2023-05-26 16:41:57.711 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/alacritty/alacritty.yml [107ms]
+2023-05-26 16:41:57.725 [info] > git cat-file -s d7c20c8e6ec06e0bd59de59ea2670f987cffc6a2 [4ms]
+2023-05-26 16:41:57.725 [info] > git cat-file -s 5d675b4a233ecdbece96d35b9851d75e64ae6ce1 [14ms]
+2023-05-26 16:41:57.725 [info] > git cat-file -s 84092391ca52a8213310ae787f05a57f7f77ccd7 [22ms]
+2023-05-26 16:41:57.726 [info] > git cat-file -s b93d31c4f8680d96f320409a71df3a901e59dccd [35ms]
+2023-05-26 16:41:57.726 [info] > git cat-file -s c93284aeb6637f64c9a45669b5bc97dd6238768a [48ms]
+2023-05-26 16:41:57.727 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2023-05-26 16:41:57.736 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/autorun.sh [79ms]
+2023-05-26 16:41:57.747 [info] > git cat-file -s dc7f7f17c12186fb9f46cc0c72932dcd6ab83e6e [1ms]
+2023-05-26 16:41:57.803 [info] > git status -z -uall [67ms]
+2023-05-26 16:41:57.803 [info] > git show --textconv :.config/alacritty/alacritty.yml [42ms]
+2023-05-26 16:41:57.803 [info] > git show --textconv :.gitignore [29ms]
+2023-05-26 16:41:57.803 [info] > git show --textconv :.config/awesome/themes/default/theme.lua [19ms]
+2023-05-26 16:41:57.803 [info] > git show --textconv :.config/awesome/rc.lua [11ms]
+2023-05-26 16:41:57.823 [info] > git show --textconv :README.md [21ms]
+2023-05-26 16:41:57.825 [info] > git show --textconv :.config/awesome/autorun.sh [3ms]
+2023-05-26 16:41:58.890 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/README.md [12ms]
+2023-05-26 16:41:58.900 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/rc.lua [32ms]
+2023-05-26 16:41:58.911 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/themes/default/theme.lua [50ms]
+2023-05-26 16:41:58.923 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.gitignore [71ms]
+2023-05-26 16:41:58.934 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/alacritty/alacritty.yml [91ms]
+2023-05-26 16:41:58.947 [info] > git cat-file -s 5d675b4a233ecdbece96d35b9851d75e64ae6ce1 [14ms]
+2023-05-26 16:41:58.948 [info] > git cat-file -s 84092391ca52a8213310ae787f05a57f7f77ccd7 [25ms]
+2023-05-26 16:41:58.948 [info] > git cat-file -s b93d31c4f8680d96f320409a71df3a901e59dccd [38ms]
+2023-05-26 16:41:58.949 [info] > git cat-file -s c93284aeb6637f64c9a45669b5bc97dd6238768a [49ms]
+2023-05-26 16:41:58.950 [info] > git ls-files --stage -- /home/jkyon/.dotfiles/.config/awesome/autorun.sh [62ms]
+2023-05-26 16:41:58.961 [info] > git cat-file -s d7c20c8e6ec06e0bd59de59ea2670f987cffc6a2 [16ms]
+2023-05-26 16:41:59.006 [info] > git show --textconv :.gitignore [33ms]
+2023-05-26 16:41:59.006 [info] > git show --textconv :.config/awesome/themes/default/theme.lua [23ms]
+2023-05-26 16:41:59.006 [info] > git show --textconv :.config/awesome/rc.lua [12ms]
+2023-05-26 16:41:59.008 [info] > git cat-file -s dc7f7f17c12186fb9f46cc0c72932dcd6ab83e6e [48ms]
+2023-05-26 16:41:59.019 [info] > git show --textconv :README.md [15ms]
+2023-05-26 16:41:59.029 [info] > git show --textconv :.config/alacritty/alacritty.yml [11ms]
+2023-05-26 16:41:59.032 [info] > git show --textconv :.config/awesome/autorun.sh [3ms]
+2023-05-26 16:42:01.124 [info] > git config --get commit.template [13ms]
+2023-05-26 16:42:01.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 16:42:01.145 [info] > git status -z -uall [10ms]
+2023-05-26 16:42:10.611 [info] > git config --get commit.template [9ms]
+2023-05-26 16:42:10.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-26 16:42:10.634 [info] > git status -z -uall [12ms]

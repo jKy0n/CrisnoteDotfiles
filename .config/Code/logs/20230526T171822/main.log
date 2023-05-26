@@ -1,0 +1,2 @@
+2023-05-26 17:18:23.777 [info] update#ctor - updates are disabled as there is no update URL
+2023-05-26 17:18:36.762 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
