@@ -9,7 +9,12 @@
     "profileAssociationsMigration": true,
     "telemetry.machineId": "fbf101689317c4a4c9536929df9ee6b76234e1814529c066475a27043a46eb61",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "236a4ad2f4b6b58b3eadc2bfe2ea951a",
+                "configURIPath": "file:///home/jkyon/.config/Code/Workspaces/1685101681695/workspace.json"
+            }
+        ],
         "folders": [
             {
                 "folderUri": "file:///home/jkyon/ShellScript"
@@ -55,7 +60,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -358,7 +364,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -789,7 +795,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1711,8 +1718,11 @@
     "window.experimental.useSandbox": true,
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jkyon/ShellScript",
-            "backupPath": "/home/jkyon/.config/Code/Backups/9e1ab5487faa8510e3c149e37e055abf",
+            "workspaceIdentifier": {
+                "id": "236a4ad2f4b6b58b3eadc2bfe2ea951a",
+                "configURIPath": "file:///home/jkyon/.config/Code/Workspaces/1685101681695/workspace.json"
+            },
+            "backupPath": "/home/jkyon/.config/Code/Backups/236a4ad2f4b6b58b3eadc2bfe2ea951a",
             "uiState": {
                 "mode": 0,
                 "x": 25,

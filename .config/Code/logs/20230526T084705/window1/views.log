@@ -1,0 +1,16 @@
+2023-05-26 08:47:07.008 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2023-05-26 08:47:07.008 [info] Added views:workbench.panel.output in workbench.panel.output
+2023-05-26 08:47:07.008 [info] Added views:terminal in terminal
+2023-05-26 08:47:07.008 [info] Added views:outline in workbench.view.explorer
+2023-05-26 08:47:07.008 [info] Added views:workbench.scm in workbench.view.scm
+2023-05-26 08:47:07.008 [info] Added views:workbench.view.search in workbench.view.search
+2023-05-26 08:47:07.008 [info] Added views:timeline in workbench.view.explorer
+2023-05-26 08:47:07.008 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2023-05-26 08:47:07.585 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-05-26 08:47:07.945 [info] Added views:makefile.outline in workbench.view.extension.makefile__viewContainer
+2023-05-26 08:47:07.946 [info] Added views:vscode-serial-monitor.monitor0 in workbench.view.extension.vscode-serial-monitor-tools
+2023-05-26 08:47:07.947 [info] Added views:platformio-ide.quickAccess in workbench.view.extension.platformio
+2023-05-26 08:47:07.948 [info] Added views:platformio-debug.peripherals,platformio-debug.registers,platformio-debug.memory,platformio-debug.disassembly in workbench.view.debug
+2023-05-26 08:47:08.560 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2023-05-26 08:48:05.214 [info] Removed views:workbench.panel.repl.view from workbench.panel.repl
+2023-05-26 08:48:05.356 [info] Added views:workbench.panel.repl.view in workbench.panel.repl

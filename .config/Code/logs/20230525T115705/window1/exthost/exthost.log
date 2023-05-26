@@ -15,3 +15,73 @@
 2023-05-26 08:43:13.831 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
 2023-05-26 08:43:13.937 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 2023-05-26 08:43:15.246 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-05-26 08:47:00.292 [info] Extension host terminating: renderer closed the MessagePort
+2023-05-26 08:47:00.317 [error] Canceled: Canceled
+	at new l (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1274494)
+	at /opt/vscode/resources/app/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-05-26 08:47:00.318 [error] Canceled: Canceled
+	at new l (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1274494)
+	at /opt/vscode/resources/app/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-05-26 08:47:00.344 [info] Extension host with pid 14109 exiting with code 0

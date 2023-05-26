@@ -1,2 +1,3 @@
-2023/05/23-14:56:27.396 7302 Creating DB /home/jkyon/.config/Code/Session Storage since it was missing.
-2023/05/23-14:56:27.566 7302 Reusing MANIFEST /home/jkyon/.config/Code/Session Storage/MANIFEST-000001
+2023/05/25-11:56:42.909 3336 Reusing MANIFEST /home/jkyon/.config/Code/Session Storage/MANIFEST-000001
+2023/05/25-11:56:42.910 3336 Recovering log #3
+2023/05/25-11:56:42.938 3336 Reusing old log /home/jkyon/.config/Code/Session Storage/000003.log 
