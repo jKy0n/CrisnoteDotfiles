@@ -16,7 +16,7 @@ Init: OpenRC
 
 ## Hardware:
 
-Notebook Model: Samsung NP300E5K
+Notebook Model: Samsung NP300E5K 
 CPU: Intel i5-5200U (4) @ 2.7GHz 
 GPU: Intel HD Graphics 5500
 RAM: 2x8GB DDR3 @ 1333MHz

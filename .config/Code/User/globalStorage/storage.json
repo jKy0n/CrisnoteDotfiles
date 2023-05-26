@@ -60,8 +60,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -79,6 +78,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/jkyon/.zshrc",
+                                        "path": "/home/jkyon/.zshrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.zshrc"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -579,8 +589,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1723,11 +1732,11 @@
             },
             "backupPath": "/home/jkyon/.config/Code/Backups/236a4ad2f4b6b58b3eadc2bfe2ea951a",
             "uiState": {
-                "mode": 0,
-                "x": 25,
-                "y": 120,
-                "width": 1918,
-                "height": 1018
+                "mode": 1,
+                "x": 8,
+                "y": 32,
+                "width": 948,
+                "height": 1040
             }
         },
         "openedWindows": []
