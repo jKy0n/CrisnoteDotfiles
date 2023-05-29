@@ -109,6 +109,52 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 -- Create a textclock widget
 mytextclock = wibox.widget.textclock()
 
+
+---------------------------------------------------------------------------------
+-------------------------  Tags Manipulation Functions  -------------------------
+
+local function add_tag()
+    awful.tag.add("NewTag", {
+        screen = awful.screen.focused(),
+        layout = awful.layout.suit.tile,
+        volatile = true
+    }):view_only()
+end 
+
+local function delete_tag()
+    local t = awful.screen.focused().selected_tag
+    if not t then return end
+    t:delete()
+end
+
+local function rename_tag()
+    awful.prompt.run {
+        prompt       = "New tag name: ",
+        textbox      = awful.screen.focused().mypromptbox.widget,
+        exe_callback = function(new_name)
+            if not new_name or #new_name == 0 then return end
+
+            local t = awful.screen.focused().selected_tag
+            if t then
+                t.name = new_name
+            end
+        end
+    }
+end
+
+local function move_to_new_tag()
+    local c = client.focus
+    if not c then return end
+
+    local t = awful.tag.add(c.class,{screen= c.screen, volatile = true })
+    c:tags({t})
+    t:view_only()
+end
+
+-------------------------  Tags Manipulation Functions  -------------------------
+---------------------------------------------------------------------------------
+
+
 -- Create a wibox for each screen and add it
 local taglist_buttons = gears.table.join(
                     awful.button({ }, 1, function(t) t:view_only() end),
@@ -168,8 +214,43 @@ awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
 
-    -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+-----------------------------------------------------------------------------------------------
+-------------------------------------- Tags Organization --------------------------------------
+
+--    -- Each screen has its own tag table.
+--    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+
+
+    awful.tag.add(" System ", {
+        --    icon = "/home/jkyon/.dotfiles/.config/awesome/icons/system.png",
+            layout = awful.layout.suit.tile,
+            screen = 1,
+            selected = true
+        })
+
+    awful.tag.add(" Code ", {
+        --    icon = "/home/jkyon/.dotfiles/.config/awesome/icons/system.png",
+            layout = awful.layout.suit.tile,
+            screen = 1,
+            selected = false
+        })
+
+    awful.tag.add(" www ", {
+        --    icon = "/home/jkyon/.dotfiles/.config/awesome/icons/system.png",
+            layout = awful.layout.suit.tile,
+            screen = 1,
+            selected = false
+        })
+
+    awful.tag.add(" Monitor ", {
+        --    icon = "/home/jkyon/.dotfiles/.config/awesome/icons/system.png",
+            layout = awful.layout.suit.tile,
+            screen = 1,
+            selected = false
+        })
+
+-------------------------------------- Tags Organization --------------------------------------
+-----------------------------------------------------------------------------------------------
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -220,6 +301,9 @@ awful.screen.connect_for_each_screen(function(s)
             wibox.widget.textbox(' | '),
             wibox.widget.textbox('RAM: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksMemUsage"', 1),
+            wibox.widget.textbox(' | '),
+            wibox.widget.textbox('BAT: '),
+            awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/crisNoteBatteryLevel"', 1),
             wibox.widget.textbox(' - '),
             wibox.widget.systray(),
             mytextclock,
@@ -339,7 +423,23 @@ globalkeys = gears.table.join(
 
 
 awful.key({ modkey, }, "p",
-function () awful.util.spawn("rofi -config ~/.config/rofi/config -show combi -combi-modi \"window,run\" -icon-theme \"Papirus\" -show-icons -modi combi -theme ~/.config/rofi/config.rasi") end)
+function () awful.util.spawn("rofi -config ~/.config/rofi/config -show combi -combi-modi \"window,run\" -icon-theme \"Papirus\" -show-icons -modi combi -theme ~/.config/rofi/config.rasi") end),
+
+
+------------------------------------------------------------------------
+---------------------  Tags Manipulation keybinds  ---------------------
+
+    awful.key({ modkey,           }, "a", add_tag,
+        {description = "add a tag", group = "tag"}),
+    awful.key({ modkey, "Shift"   }, "a", delete_tag,
+        {description = "delete the current tag", group = "tag"}),
+    awful.key({ modkey, "Shift"   }, "r", rename_tag,
+        {description = "rename the current tag", group = "tag"}),
+    awful.key({ modkey, "Control"   }, "a", move_to_new_tag,
+        {description = "add a tag with the focused client", group = "tag"})
+
+---------------------  Tags Manipulation keybinds  ---------------------
+------------------------------------------------------------------------
 
 
 )
