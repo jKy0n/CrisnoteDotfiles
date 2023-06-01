@@ -115,7 +115,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock("%a, %d %b - %H:%M ", 10 )
+mytextclock = wibox.widget.textclock("%a, %d %b - %H:%M", 10 )
 
 
 ---------------------------------------------------------------------------------
@@ -314,7 +314,7 @@ awful.screen.connect_for_each_screen(function(s)
             wibox.widget.textbox(' CPU: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksCpuUsage"', 1),
             wibox.widget.textbox(' | '),
-            wibox.widget.textbox(' Load: '),
+            wibox.widget.textbox(' Nice: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksNice"', 1),
             wibox.widget.textbox(' | '),
             wibox.widget.textbox('Temp: '),

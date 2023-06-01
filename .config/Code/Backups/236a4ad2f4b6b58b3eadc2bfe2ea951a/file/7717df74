@@ -1,3 +1,4 @@
+file:///home/jkyon/.zshrc {"mtime":1685625184406,"ctime":1685026046846,"size":3965,"etag":"3aknqnb2o43s","orphaned":false,"typeId":""}
 #
 #
 HISTFILE=~/.histfile
@@ -13,8 +14,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 source ~/.powerlevel10k/powerlevel10k.zsh-theme
-
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

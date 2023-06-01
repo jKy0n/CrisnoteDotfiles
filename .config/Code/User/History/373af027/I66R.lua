@@ -115,7 +115,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock("%a, %d %b - %H:%M ", 10 )
+mytextclock = wibox.widget.textclock("%a, %d %b - %H:%M", 10 )
 
 
 ---------------------------------------------------------------------------------
@@ -314,7 +314,7 @@ awful.screen.connect_for_each_screen(function(s)
             wibox.widget.textbox(' CPU: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksCpuUsage"', 1),
             wibox.widget.textbox(' | '),
-            wibox.widget.textbox(' Load: '),
+            wibox.widget.textbox(' Nice: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksNice"', 1),
             wibox.widget.textbox(' | '),
             wibox.widget.textbox('Temp: '),
@@ -445,7 +445,7 @@ globalkeys = gears.table.join(
 awful.key({ modkey, }, "p",
 function () awful.util.spawn("rofi -config ~/.config/rofi/config -show combi -combi-modi \"window,run\" -icon-theme \"Papirus\" -show-icons -modi combi -theme ~/.config/rofi/config.rasi") end),
 
-awful.key({ }, "Print", function () awful.util.spawn("gnome-screenshot -i") end),
+awful.key({ }), "Print", function () awful.util.spawn("gnome-screenshot -i") end),
 
 ------------------------------------------------------------------------
 ---------------------  Tags Manipulation keybinds  ---------------------

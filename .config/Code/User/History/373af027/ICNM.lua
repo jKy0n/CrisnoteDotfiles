@@ -115,7 +115,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock("%a, %d %b - %H:%M ", 10 )
+mytextclock = wibox.widget.textclock("%a %b %d, %H:%M", 10 )
 
 
 ---------------------------------------------------------------------------------
@@ -154,7 +154,7 @@ local function move_to_new_tag()
     local c = client.focus
     if not c then return end
 
-    local t = awful.tag.add(c.class,{screen= c.screen, layout = awful.layout.suit.tile, volatile = true })
+    local t = awful.tag.add(c.class,{screen= c.screen, volatile = true })
     c:tags({t})
     t:view_only()
 end
@@ -314,7 +314,7 @@ awful.screen.connect_for_each_screen(function(s)
             wibox.widget.textbox(' CPU: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksCpuUsage"', 1),
             wibox.widget.textbox(' | '),
-            wibox.widget.textbox(' Load: '),
+            wibox.widget.textbox(' NICE: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/dwmBlocksNice"', 1),
             wibox.widget.textbox(' | '),
             wibox.widget.textbox('Temp: '),
@@ -324,7 +324,7 @@ awful.screen.connect_for_each_screen(function(s)
             wibox.widget.textbox(' | '),
             wibox.widget.textbox('BAT: '),
             awful.widget.watch('bash -c "sh /home/jkyon/ShellScript/crisNoteBatteryLevel"', 1),
-            wibox.widget.textbox(' | '),
+            wibox.widget.textbox(' - '),
             wibox.widget.systray(),
             mytextclock,
         },
@@ -445,7 +445,6 @@ globalkeys = gears.table.join(
 awful.key({ modkey, }, "p",
 function () awful.util.spawn("rofi -config ~/.config/rofi/config -show combi -combi-modi \"window,run\" -icon-theme \"Papirus\" -show-icons -modi combi -theme ~/.config/rofi/config.rasi") end),
 
-awful.key({ }, "Print", function () awful.util.spawn("gnome-screenshot -i") end),
 
 ------------------------------------------------------------------------
 ---------------------  Tags Manipulation keybinds  ---------------------
